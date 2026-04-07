@@ -27,8 +27,6 @@ body::-webkit-scrollbar {
 
 /* Body */
 body {
-	min-height: 100vh;
-	background-color: white;
 	
 	/* Gradient Border */
 	border-right: solid 10px;
@@ -42,6 +40,7 @@ body {
 	transparent 95%
 	);
 	
+	background-color: white;
 	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 	line-height: 1.6;
 	color: #333;
@@ -68,28 +67,11 @@ ul, ol, li {
 	font-size: 12px;
 }
 
-/* Images */
-img {
-	max-width: 100%;
-	height: auto;
-	display: block;
-}
-
 /* Links */
 a {
-	margin: 0.5rem 1.5rem;
+	margin: 10px;
 	text-decoration: none;
 	font-weight: 500;
-	display: block;
-}
-
-
-.my-discord {
-	color: var(--dusty-mauve);
-}
-
-.my-github {
-	color: var(--cherry-blossom);
 }
 
 /* Navigation Bar */
@@ -122,14 +104,11 @@ nav {
 
 /* Footer */
 footer {
-	background-color: #ddd;
-	width: calc(100%+20px);
-	margin: 0 -10px;
+	padding: 0 1rem;
+	text-align: center;
 }
 
 footer p {
 	font-size: 10px;
-	text-align: center;
-	margin: 0.5rem;
 	color: #aaa;
 }
