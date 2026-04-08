@@ -15,15 +15,8 @@
 }
 
 /* Hide Scroll Bar */
-html, body {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  display: none;
-}
+html, body { scrollbar-width: none; -ms-overflow-style: none; }
+html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
 
 /* Body */
 body {
@@ -35,15 +28,19 @@ body {
 	border-image-source: linear-gradient(
 	to bottom,
 	transparent 0%,
-	var(--pastel-pink) 15%,
-	var(--cherry-blossom) 80%,
-	transparent 95%
+	var(--pastel-pink) 10%,
+	var(--cherry-blossom) 90%,
+	transparent 100%
 	);
 	
 	background-color: white;
 	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 	line-height: 1.6;
 	color: #333;
+
+	/* Nav Bar Space */
+	padding-top: 65px;
+
 }
 
 /* Typography */
@@ -53,12 +50,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 1rem 1rem 1rem 1.5rem;
 }
 
-p {
-	margin: 0.5rem 1.5rem;
+p, ul, ol, li {
+	margin: 0.5rem 0.5rem 0.5rem 1.5rem;
 }
 
-ul, ol, li {
-	margin: 0.5rem 1.5rem;
+.nested-list {
+	margin-left: 0;
 }
 
 .explanation {
@@ -67,19 +64,25 @@ ul, ol, li {
 	font-size: 12px;
 }
 
+/* Spacing */
+.space-md { height: 1.25rem; }
+.space-sm { height: 0.625rem; }
+
 /* Links */
 a {
-	margin: 10px;
 	text-decoration: none;
 	font-weight: 500;
+}
+
+.social-link {
+	margin: 0.5rem;
 }
 
 /* Navigation Bar */
 nav {
 	position: fixed;
 	width: 100%;
-	left: 0;
-	right: 0;
+	top: 0; left: 0; right: 0;
 	z-index: 999;
 	background-color: white;
 	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
@@ -104,7 +107,7 @@ nav {
 
 /* Footer */
 footer {
-	padding: 0 1rem;
+	padding: 1rem;
 	text-align: center;
 }
 
