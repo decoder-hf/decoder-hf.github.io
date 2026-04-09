@@ -76,7 +76,12 @@ a {
 
 .social-link {
 	display: inline-block;
+	vertical-align: middle;
 	margin: 0.5rem;
+}
+
+.social-link img {
+	display: block;
 }
 
 /* Navigation Bar */
