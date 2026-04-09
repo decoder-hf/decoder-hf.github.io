@@ -75,6 +75,7 @@ a {
 }
 
 .social-link {
+	display: inline-block;
 	margin: 0.5rem;
 }
 
