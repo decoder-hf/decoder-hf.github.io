@@ -7,11 +7,7 @@
 
 /* Colors */
 :root {
-	--alabaster-grey: #d8e2dc;
-	--powder-petal: #ffe5d9;
-	--pastel-pink: #ffcad4;
-	--cherry-blossom: #f4acb7;
-	--dusty-mauve: #9d8189;
+	--whats-a-color: #ffffff;
 }
 
 /* Hide Scroll Bar */
@@ -20,20 +16,11 @@ html::-webkit-scrollbar, body::-webkit-scrollbar { display: none; }
 
 /* Body */
 body {
-
-	/* Gradient Border (to be edited) */
-	border-right: solid #ddd 10px;
-	border-left: solid #ddd 10px;
-	
-	/* Background & Font */
 	background-color: white;
 	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 	line-height: 1.6;
 	color: #333;
-
-	/* Test */
 	min-height: 200vh;
-
 }
 
 /* Typography */
@@ -54,9 +41,9 @@ p, ul, ol, li {
 	margin: 0.5rem 1.5rem;
 }
 
-.nested-list {
-	margin-left: 0;
-}
+ul { list-style-type: disc; }
+.nested-list { margin-left: 0; }
+.no-margin { margin: 0; }
 
 .explanation {
 	color: #999;
@@ -97,10 +84,9 @@ a {
 /* Navigation Bar */
 nav {
 	position: sticky;
-	width: calc(100% + 20px);
-	margin-left: -10px;
-	margin-right: -10px;
-	top: 1rem; left: 0; right: 0;
+	width: 100%;
+	top: 0;
+	padding: 1rem 1.5rem;
 	z-index: 999;
 	background-color: rgba(255, 255, 255, 0.97);
 	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
