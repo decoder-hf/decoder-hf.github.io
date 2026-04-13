@@ -8,7 +8,7 @@ A **simple**, **responsive** website made by me to introduce myself and store my
 >
 
 ## 🚨 READ ME!!
-The entire website is **NOT DONE YET**, everything below is just a concept.
+The entire website is **NOT DONE YET**, everything below is just my concepts.
 
 ## 🤨 What’s Inside?
 - 🏠 About Me - My experience, my favourite song…
